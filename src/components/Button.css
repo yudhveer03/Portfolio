@@ -1,0 +1,31 @@
+.btn {
+    position: relative;
+    top: -35px;
+    cursor: pointer;
+    padding: 10px;
+    border: solid white;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: ease-in-out .2s;
+    
+
+}
+
+.btn {
+
+    text-decoration: none;
+    color: white;
+     transition: ease-in-out .2s;
+}
+
+.btn {
+    background: transparent;
+    color: white;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}

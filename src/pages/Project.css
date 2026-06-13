@@ -1,0 +1,26 @@
+.Project-container {
+  width: 100%;
+  display: flex;             
+  flex-wrap: wrap;
+
+  justify-content: center;    
+  align-items: stretch;       
+
+  gap: 24px;                
+  padding: 20px;
+  
+}
+
+
+
+.Project-heading {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .Project-container {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,24 @@
+.skill-container {
+  width: 100%;
+  display: flex;             
+  flex-wrap: wrap;
+
+  justify-content: center;    
+  align-items: stretch;       
+
+  gap: 24px;                
+  padding: 20px;
+  
+}
+
+.Skill-heading {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .skill-container {
+    justify-content: flex-start;
+  }
+}

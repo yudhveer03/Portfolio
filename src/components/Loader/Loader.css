@@ -1,0 +1,19 @@
+.Loader{
+
+    width: 30px;
+    height: 30px;
+    border: solid 3px white;
+    border-bottom: solid 3px orange;
+    border-radius: 100px;
+    animation:spin .5s  linear infinite ;
+
+}
+
+@keyframes  spin{
+    
+   
+    100%{
+        
+        rotate: 360deg;
+    }
+}
