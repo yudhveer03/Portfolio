@@ -2,7 +2,6 @@ import "./Card.css"
 import { Link } from "react-router"
 import Loader from "../components/Loader/Loader"
 import {ImageLoader} from "../hooks/ImageLoader";
-
 export default function Card({ image, title, techStack, liveDemoLink, GithubLink }) {
 
     const status = ImageLoader(image);
@@ -30,7 +29,7 @@ export default function Card({ image, title, techStack, liveDemoLink, GithubLink
                 
                 <div className="cardBtns">
                     <Link className="cardBtn" to={liveDemoLink}>Live Demo</Link>
-                    <Link className="cardBtn" to={GithubLink}>Git Hub</Link>
+                    {/* <Link className="cardBtn" to={GithubLink}>Git Hub</Link> */}
 
                 </div>
 
