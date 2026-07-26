@@ -20,9 +20,9 @@ export default function Abouts() {
 
                     <div className="aboutPageText">
                         <p>
-                            I’m a passionate Frontend developer and a computer science student who enjoys building modern, responsive web applications. I’m currently focused on improving my frontend skills with React and exploring backend development with Node.js and MongoDB.
+                            I’m a passionate MERN Stack Developer and Computer Science student who enjoys building modern and responsive web applications. I work with MongoDB, Express.js, React, and Node.js to create scalable full-stack solutions. I’m constantly learning, improving my skills, and building real-world projects.
 
-                            I’m always eager to learn, grow, and work on real-world projects.
+                           
                         </p>
                     </div>
                 </div>

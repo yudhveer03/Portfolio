@@ -36,13 +36,13 @@ export default function Personal() {
 
                 </div>
                 <div id="fieldInfoTag">
-                    <p>Frontend Developer</p>
+                    <p>MERN Stack Developer</p>
 
                 </div>
 
                 <div className="about" >
 
-                    <span> I’m a frontend-focused developer who enjoys building clean, responsive, and interactive web experiences.</span>
+                    <span> I’m a MERN Stack Developer who builds scalable, responsive, and user-focused web applications using modern technologies and clean development practices.</span>
                 </div>
 
 
